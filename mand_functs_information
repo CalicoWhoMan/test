@@ -1,0 +1,64 @@
+This is just an infomatic page on the functions that we will be needing and probably put in the functions file
+
+(Links to help visualize things for Mikey)
+
+* https://www.cprogramming.com/tutorial/c/lesson17.html
+__________________________________________________________________________________________________________________________
+
+NUMBER 0
+
+# We need a function that prints a character to stdout - c
+
+# We need to print a string of character///incrementing one at a time - s
+
+# We need to write a % followed by a char only if they match the structure - %
+/**
+ * print_nan - (nan means Not A Number) prints a character after the % which is nan
+ * @first: This will always be the % sign
+ * @second: This will always be a character unless in the advanced tasks I
+ * Think there might be a double %%
+ * Return: if the second char is a % then 1, if first char is anything else then a 2
+ */
+
+int print_nan(char first, char second)
+
+{
+	if (second == '%')
+	{
+		write(1, &second, 1);
+		return (1);
+	}
+	else
+	{
+		write(1, &first, 1);
+		write(1, &second, 1);
+		return (2);
+	}
+}
+
+__________________________________________________________________________________________________________________________
+
+NUMBER 1
+
+# We need to print a signed decimal integer - d & i
+/**
+ *
+ *
+ *
+ *
+ */
+
+int print_decis(va_list list)
+
+{
+
+
+
+
+
+
+
+
+
+
+}
