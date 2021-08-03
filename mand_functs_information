@@ -1,3 +1,6 @@
+#include "holberton.h"
+
+
 This is just an infomatic page on the functions that we will be needing and probably put in the functions file
 
 (Links to help visualize things for Mikey)
@@ -8,7 +11,7 @@ ________________________________________________________________________________
 NUMBER 0
 
 # We need a function that prints a character to stdout - c
-
+vi 
 # We need to print a string of character///incrementing one at a time - s
 
 # We need to write a % followed by a char only if they match the structure - %
@@ -51,14 +54,5 @@ NUMBER 1
 int print_decis(va_list list)
 
 {
-
-
-
-
-
-
-
-
-
 
 }

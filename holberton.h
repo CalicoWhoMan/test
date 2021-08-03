@@ -17,4 +17,6 @@ char aim
 int (*define)(va_list);
 } aim_f;
 
+int _printf(const char *format, ...);
+int _putchar(char c)
 
